@@ -5,11 +5,11 @@ Private encrypted sync for `~/.claude/projects` between machines using your SSH 
 ## Quick Setup (new machine)
 
 ```bash
-git clone git@github.com:cryptid11/sync.git ~/sync
+git clone git@github.com:cryptid11/sync.git <your-path>
 
-# Add aliases to your shell
-echo 'alias cpush="~/sync/sync-push.sh"' >> ~/.bashrc
-echo 'alias cpull="~/sync/sync-pull.sh"' >> ~/.bashrc
+# Add aliases to your shell (adjust path to where you cloned)
+echo 'alias cpush="<your-path>/sync-push.sh"' >> ~/.bashrc
+echo 'alias cpull="<your-path>/sync-pull.sh"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
